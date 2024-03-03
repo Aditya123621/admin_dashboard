@@ -5,6 +5,7 @@ import { IoSearch } from "react-icons/io5";
 import styles from "../navbar/navbar.module.css";
 
 const Navbar = () => {
+  // Just a comment for a test
   const pathname = usePathname();
   const getNavBarTitle = (e) => {
     return e[0].toUpperCase() + e.slice(1);
